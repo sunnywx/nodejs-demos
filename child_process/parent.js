@@ -1,6 +1,6 @@
-const cp=require('child_process')
+import cp from 'node:child_process'
 
-const child=cp.fork(__dirname + '/child.js')
+const child=cp.fork(__dirname + './child.js')
 
 // console.log('child: ', child)
 
